@@ -12,6 +12,7 @@
 		BB400D291F7A1C3D00B835B8 /* SugarFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB400D1B1F7A1C3D00B835B8 /* SugarFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB400D331F7A1C5400B835B8 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB400D321F7A1C5400B835B8 /* UIDeviceExtensions.swift */; };
 		BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52131F7CC42000089258 /* ArrayExtensions.swift */; };
+		BBFF52161F7CCC5D00089258 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		BB400D281F7A1C3D00B835B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB400D321F7A1C5400B835B8 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
 		BBFF52131F7CC42000089258 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		BB400D1A1F7A1C3D00B835B8 /* SugarFunctions */ = {
 			isa = PBXGroup;
 			children = (
+				BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */,
 				BBFF52131F7CC42000089258 /* ArrayExtensions.swift */,
 				BB400D321F7A1C5400B835B8 /* UIDeviceExtensions.swift */,
 				BB400D1B1F7A1C3D00B835B8 /* SugarFunctions.h */,
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB400D331F7A1C5400B835B8 /* UIDeviceExtensions.swift in Sources */,
+				BBFF52161F7CCC5D00089258 /* AppStoryboard.swift in Sources */,
 				BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
