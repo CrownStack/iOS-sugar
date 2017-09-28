@@ -1,11 +1,3 @@
-//
-//  DateExtensions.swift
-//  SwifterSwift
-//
-//  Created by Omar Albeik on 8/5/16.
-//  Copyright © 2016 Omar Albeik. All rights reserved.
-//
-
 import Foundation
 
 
@@ -32,9 +24,7 @@ public extension Date {
 		case oneLetter
 		case full
 	}
-	
 }
-
 
 // MARK: - Properties
 public extension Date {
@@ -234,7 +224,6 @@ public extension Date {
 	public var unixTimestamp: Double {
 		return timeIntervalSince1970
 	}
-	
 }
 
 
@@ -539,7 +528,6 @@ public extension Date {
 		dateFormatter.setLocalizedDateFormatFromTemplate(format)
 		return dateFormatter.string(from: self)
 	}
-	
 }
 
 
@@ -612,5 +600,4 @@ public extension Date {
 	public init(unixTimestamp: Double) {
 		self.init(timeIntervalSince1970: unixTimestamp)
 	}
-	
 }

@@ -1,15 +1,6 @@
-//
-//  UISearchBarExtensions.swift
-//  SwifterSwift
-//
-//  Created by Omar Albeik on 8/23/16.
-//  Copyright © 2016 Omar Albeik. All rights reserved.
-//
-
 #if os(iOS) || os(tvOS)
 
 import UIKit
-
 
 // MARK: - Properties
 public extension UISearchBar {
@@ -27,7 +18,6 @@ public extension UISearchBar {
 	public var trimmedText: String? {
 		return text?.trimmed
 	}
-	
 }
 
 #endif

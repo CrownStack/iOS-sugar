@@ -1,15 +1,6 @@
-//
-//  NSAttributedStringExtensions.swift
-//  SSTests
-//
-//  Created by Omar Albeik on 26/11/2016.
-//  Copyright © 2016 Omar Albeik. All rights reserved.
-//
-
 #if !os(macOS)
 
 import UIKit
-
 
 // MARK: - Properties
 public extension NSAttributedString {
@@ -47,9 +38,7 @@ public extension NSAttributedString {
 		copy.addAttributes(attributes, range: range)
 		return copy
 	}
-	
 }
-
 
 // MARK: - Methods
     public extension NSAttributedString {
@@ -96,9 +85,7 @@ public extension NSAttributedString {
         
 		return copy
 	}
-	
 }
-
 
 // MARK: - Operators
 public extension NSAttributedString {
@@ -113,7 +100,6 @@ public extension NSAttributedString {
 		ns.append(rhs)
 		lhs = ns
 	}
-	
 }
 
 #endif
