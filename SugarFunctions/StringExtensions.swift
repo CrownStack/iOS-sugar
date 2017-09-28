@@ -523,16 +523,6 @@ public extension String {
 		return hasPrefix(prefix)
 	}
 	
-	/// SwifterSwift: Date object from string of date format.
-	///
-	/// - Parameter format: date format.
-	/// - Returns: Date object from string (if applicable).
-	public func date(withFormat format: AppDateFormat) -> Date? {
-		let dateFormatter = Date.dateFormatter
-		dateFormatter.dateFormat = format.rawValue
-		return dateFormatter.date(from: self)
-	}
-	
 	/// SwifterSwift: Removes spaces and new lines in beginning and end of string.
 	public mutating func trim() {
 		self = trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
