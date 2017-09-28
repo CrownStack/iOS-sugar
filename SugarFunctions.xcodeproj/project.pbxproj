@@ -17,6 +17,7 @@
 		BBFF521A1F7CCEA000089258 /* UISearchBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52191F7CCEA000089258 /* UISearchBarExtensions.swift */; };
 		BBFF521C1F7CCEBC00089258 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF521B1F7CCEBC00089258 /* DateExtensions.swift */; };
 		BBFF521E1F7CCF4600089258 /* NSAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */; };
+		BBFF52201F7CD05300089258 /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		BBFF52191F7CCEA000089258 /* UISearchBarExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISearchBarExtensions.swift; sourceTree = "<group>"; };
 		BBFF521B1F7CCEBC00089258 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
+		BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		BB400D1A1F7A1C3D00B835B8 /* SugarFunctions */ = {
 			isa = PBXGroup;
 			children = (
+				BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */,
 				BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */,
 				BBFF521B1F7CCEBC00089258 /* DateExtensions.swift */,
 				BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */,
@@ -220,6 +223,7 @@
 			files = (
 				BBFF52181F7CCE4D00089258 /* StringExtensions.swift in Sources */,
 				BB400D331F7A1C5400B835B8 /* UIDeviceExtensions.swift in Sources */,
+				BBFF52201F7CD05300089258 /* UIAlertControllerExtensions.swift in Sources */,
 				BBFF521E1F7CCF4600089258 /* NSAttributedStringExtensions.swift in Sources */,
 				BBFF52161F7CCC5D00089258 /* AppStoryboard.swift in Sources */,
 				BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */,
