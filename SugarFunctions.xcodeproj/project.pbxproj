@@ -19,6 +19,7 @@
 		BBFF521E1F7CCF4600089258 /* NSAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */; };
 		BBFF52201F7CD05300089258 /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */; };
 		BBFF52221F7E0F3F00089258 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52211F7E0F3F00089258 /* Toast.swift */; };
+		BBFF52241F7E13A100089258 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52231F7E13A100089258 /* UIViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
 		BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtensions.swift; sourceTree = "<group>"; };
 		BBFF52211F7E0F3F00089258 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		BBFF52231F7E13A100089258 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		BB400D1A1F7A1C3D00B835B8 /* SugarFunctions */ = {
 			isa = PBXGroup;
 			children = (
+				BBFF52231F7E13A100089258 /* UIViewExtensions.swift */,
 				BBFF52211F7E0F3F00089258 /* Toast.swift */,
 				BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */,
 				BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */,
@@ -230,6 +233,7 @@
 				BBFF521E1F7CCF4600089258 /* NSAttributedStringExtensions.swift in Sources */,
 				BBFF52161F7CCC5D00089258 /* AppStoryboard.swift in Sources */,
 				BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */,
+				BBFF52241F7E13A100089258 /* UIViewExtensions.swift in Sources */,
 				BBFF521A1F7CCEA000089258 /* UISearchBarExtensions.swift in Sources */,
 				BBFF52221F7E0F3F00089258 /* Toast.swift in Sources */,
 				BBFF521C1F7CCEBC00089258 /* DateExtensions.swift in Sources */,
