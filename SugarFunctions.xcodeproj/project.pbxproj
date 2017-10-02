@@ -37,6 +37,8 @@
 		BBFBC5FE1F82B96A0024BBFD /* PhotoTweakView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5F81F82B96A0024BBFD /* PhotoTweakView.m */; };
 		BBFBC5FF1F82B96A0024BBFD /* UIColor+Tweak.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFBC5F91F82B96A0024BBFD /* UIColor+Tweak.h */; };
 		BBFBC6001F82B96A0024BBFD /* UIColor+Tweak.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5FA1F82B96A0024BBFD /* UIColor+Tweak.m */; };
+		BBFBC6031F82BB2E0024BBFD /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC6011F82BB2E0024BBFD /* ImageHelper.swift */; };
+		BBFBC6041F82BB2E0024BBFD /* ImageVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC6021F82BB2E0024BBFD /* ImageVIewExtension.swift */; };
 		BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52131F7CC42000089258 /* ArrayExtensions.swift */; };
 		BBFF52161F7CCC5D00089258 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */; };
 		BBFF52181F7CCE4D00089258 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52171F7CCE4D00089258 /* StringExtensions.swift */; };
@@ -92,6 +94,8 @@
 		BBFBC5F81F82B96A0024BBFD /* PhotoTweakView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTweakView.m; sourceTree = "<group>"; };
 		BBFBC5F91F82B96A0024BBFD /* UIColor+Tweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tweak.h"; sourceTree = "<group>"; };
 		BBFBC5FA1F82B96A0024BBFD /* UIColor+Tweak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tweak.m"; sourceTree = "<group>"; };
+		BBFBC6011F82BB2E0024BBFD /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		BBFBC6021F82BB2E0024BBFD /* ImageVIewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageVIewExtension.swift; sourceTree = "<group>"; };
 		BBFF52131F7CC42000089258 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		BBFF52171F7CCE4D00089258 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 		BB400D1A1F7A1C3D00B835B8 /* SugarFunctions */ = {
 			isa = PBXGroup;
 			children = (
+				BBFBC6011F82BB2E0024BBFD /* ImageHelper.swift */,
+				BBFBC6021F82BB2E0024BBFD /* ImageVIewExtension.swift */,
 				BBFBC5F41F82B96A0024BBFD /* PhotoTweaks */,
 				BBFBC5C01F82AE150024BBFD /* Core */,
 				BBFBC5C11F82AE8D0024BBFD /* CGFloatExtensions.swift */,
@@ -352,6 +358,7 @@
 				BBFBC5D91F82AEDE0024BBFD /* ORDesinables.swift in Sources */,
 				BBFBC5D81F82AEDE0024BBFD /* Notification+Extension.swift in Sources */,
 				BBFBC5E41F82AEDE0024BBFD /* UIViewController+Alert.swift in Sources */,
+				BBFBC6041F82BB2E0024BBFD /* ImageVIewExtension.swift in Sources */,
 				BBFBC5E31F82AEDE0024BBFD /* UIView+Nib.swift in Sources */,
 				BBFBC5D71F82AEDE0024BBFD /* Label+LineSpacing.swift in Sources */,
 				BBFF52241F7E13A100089258 /* UIViewExtensions.swift in Sources */,
@@ -365,6 +372,7 @@
 				BBFBC5F01F82B19F0024BBFD /* BlockPinch.swift in Sources */,
 				BBFBC5F11F82B19F0024BBFD /* BlockSwipe.swift in Sources */,
 				BBFBC5ED1F82B19F0024BBFD /* BlockButton.swift in Sources */,
+				BBFBC6031F82BB2E0024BBFD /* ImageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
