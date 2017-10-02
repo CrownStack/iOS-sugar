@@ -11,6 +11,7 @@
 		BB400D271F7A1C3D00B835B8 /* SugarFunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB400D261F7A1C3D00B835B8 /* SugarFunctionsTests.swift */; };
 		BB400D291F7A1C3D00B835B8 /* SugarFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB400D1B1F7A1C3D00B835B8 /* SugarFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB400D331F7A1C5400B835B8 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB400D321F7A1C5400B835B8 /* UIDeviceExtensions.swift */; };
+		BBFBC5C21F82AE8D0024BBFD /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5C11F82AE8D0024BBFD /* CGFloatExtensions.swift */; };
 		BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52131F7CC42000089258 /* ArrayExtensions.swift */; };
 		BBFF52161F7CCC5D00089258 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */; };
 		BBFF52181F7CCE4D00089258 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52171F7CCE4D00089258 /* StringExtensions.swift */; };
@@ -40,6 +41,7 @@
 		BB400D261F7A1C3D00B835B8 /* SugarFunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarFunctionsTests.swift; sourceTree = "<group>"; };
 		BB400D281F7A1C3D00B835B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB400D321F7A1C5400B835B8 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
+		BBFBC5C11F82AE8D0024BBFD /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = Core/CGFloatExtensions.swift; sourceTree = "<group>"; };
 		BBFF52131F7CC42000089258 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		BBFF52171F7CCE4D00089258 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
@@ -91,6 +93,8 @@
 		BB400D1A1F7A1C3D00B835B8 /* SugarFunctions */ = {
 			isa = PBXGroup;
 			children = (
+				BBFBC5C01F82AE150024BBFD /* Core */,
+				BBFBC5C11F82AE8D0024BBFD /* CGFloatExtensions.swift */,
 				BBFF52231F7E13A100089258 /* UIViewExtensions.swift */,
 				BBFF52211F7E0F3F00089258 /* Toast.swift */,
 				BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */,
@@ -114,6 +118,13 @@
 				BB400D281F7A1C3D00B835B8 /* Info.plist */,
 			);
 			path = SugarFunctionsTests;
+			sourceTree = "<group>";
+		};
+		BBFBC5C01F82AE150024BBFD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 				BBFF52241F7E13A100089258 /* UIViewExtensions.swift in Sources */,
 				BBFF521A1F7CCEA000089258 /* UISearchBarExtensions.swift in Sources */,
 				BBFF52221F7E0F3F00089258 /* Toast.swift in Sources */,
+				BBFBC5C21F82AE8D0024BBFD /* CGFloatExtensions.swift in Sources */,
 				BBFF521C1F7CCEBC00089258 /* DateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

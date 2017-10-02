@@ -37,7 +37,6 @@ public extension String {
 			let first = source.lowercased().substring(to: source.index(after: source.startIndex))
 			let rest = String(source.characters.dropFirst())
 			return "\(first)\(rest)"
-			
 		}
 	}
 	
