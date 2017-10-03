@@ -10,6 +10,7 @@
 #import "PhotoTweakView.h"
 #import "UIColor+Tweak.h"
 #import <AssetsLibrary/AssetsLibrary.h>
+#import <Photos/Photos.h>
 
 @interface PhotoTweaksViewController ()
 
@@ -110,16 +111,12 @@
                                         outputWidth:self.image.size.width
                                            cropSize:self.photoView.cropView.frame.size
                                       imageViewSize:self.photoView.photoContentView.bounds.size];
-
+    
     UIImage *image = [UIImage imageWithCGImage:imageRef];
     CGImageRelease(imageRef);
 
     if (self.autoSaveToLibray) {
-        ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
-        [library writeImageToSavedPhotosAlbum:image.CGImage metadata:nil completionBlock:^(NSURL *assetURL, NSError *error) {
-            if (!error) {
-            }
-        }];
+        [PHAssetChangeRequest creationRequestForAssetFromImage:image];
     }
 
     [self.delegate photoTweaksController:self didFinishWithCroppedImage:image];
