@@ -61,6 +61,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB1D30991F8601B5009EE6E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB1D309B1F8601B5009EE6E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB1D309E1F8601B5009EE6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB1D30A01F8601B5009EE6E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB1D30A31F8601B5009EE6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB1D30A51F8601B5009EE6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1D30AE1F8601B5009EE6E9 /* SugarDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarDemoTests.swift; sourceTree = "<group>"; };
+		BB1D30B01F8601B5009EE6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1D30B91F8601B6009EE6E9 /* SugarDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarDemoUITests.swift; sourceTree = "<group>"; };
+		BB1D30BB1F8601B6009EE6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB400D181F7A1C3D00B835B8 /* SugarFunctions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarFunctions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB400D1B1F7A1C3D00B835B8 /* SugarFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SugarFunctions.h; sourceTree = "<group>"; };
 		BB400D1C1F7A1C3D00B835B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,11 +136,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB1D30981F8601B5009EE6E9 /* SugarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BB1D30991F8601B5009EE6E9 /* AppDelegate.swift */,
+				BB1D309B1F8601B5009EE6E9 /* ViewController.swift */,
+				BB1D309D1F8601B5009EE6E9 /* Main.storyboard */,
+				BB1D30A01F8601B5009EE6E9 /* Assets.xcassets */,
+				BB1D30A21F8601B5009EE6E9 /* LaunchScreen.storyboard */,
+				BB1D30A51F8601B5009EE6E9 /* Info.plist */,
+			);
+			path = SugarDemo;
+			sourceTree = "<group>";
+		};
+		BB1D30AD1F8601B5009EE6E9 /* SugarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB1D30AE1F8601B5009EE6E9 /* SugarDemoTests.swift */,
+				BB1D30B01F8601B5009EE6E9 /* Info.plist */,
+			);
+			path = SugarDemoTests;
+			sourceTree = "<group>";
+		};
+		BB1D30B81F8601B6009EE6E9 /* SugarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB1D30B91F8601B6009EE6E9 /* SugarDemoUITests.swift */,
+				BB1D30BB1F8601B6009EE6E9 /* Info.plist */,
+			);
+			path = SugarDemoUITests;
+			sourceTree = "<group>";
+		};
 		BB400D0E1F7A1C3D00B835B8 = {
 			isa = PBXGroup;
 			children = (
 				BB400D1A1F7A1C3D00B835B8 /* SugarFunctions */,
 				BB400D251F7A1C3D00B835B8 /* SugarFunctionsTests */,
+				BB1D30981F8601B5009EE6E9 /* SugarDemo */,
+				BB1D30AD1F8601B5009EE6E9 /* SugarDemoTests */,
+				BB1D30B81F8601B6009EE6E9 /* SugarDemoUITests */,
 				BB400D191F7A1C3D00B835B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -304,6 +348,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = BB400D0E1F7A1C3D00B835B8;
 			productRefGroup = BB400D191F7A1C3D00B835B8 /* Products */;
@@ -393,6 +438,25 @@
 			targetProxy = BB400D231F7A1C3D00B835B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB1D309D1F8601B5009EE6E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB1D309E1F8601B5009EE6E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB1D30A21F8601B5009EE6E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB1D30A31F8601B5009EE6E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BB400D2A1F7A1C3D00B835B8 /* Debug */ = {
@@ -510,7 +574,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = crownstack.SugarFunctions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -530,7 +594,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = crownstack.SugarFunctions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

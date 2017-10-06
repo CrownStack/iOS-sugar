@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SugarDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>SugarFunctions.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>BB1D30961F8601B5009EE6E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB1D30A91F8601B5009EE6E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB1D30B41F8601B6009EE6E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>BB400D171F7A1C3D00B835B8</key>
 		<dict>
 			<key>primary</key>
