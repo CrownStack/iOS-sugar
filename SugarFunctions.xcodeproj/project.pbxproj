@@ -11,7 +11,7 @@
 		BB400D271F7A1C3D00B835B8 /* SugarFunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB400D261F7A1C3D00B835B8 /* SugarFunctionsTests.swift */; };
 		BB400D291F7A1C3D00B835B8 /* SugarFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB400D1B1F7A1C3D00B835B8 /* SugarFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB400D331F7A1C5400B835B8 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB400D321F7A1C5400B835B8 /* UIDeviceExtensions.swift */; };
-		BBFBC5C21F82AE8D0024BBFD /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5C11F82AE8D0024BBFD /* CGFloatExtensions.swift */; };
+		BB553ECD1FAC33A000DD01EE /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB553ECC1FAC33A000DD01EE /* CGFloatExtensions.swift */; };
 		BBFBC5D51F82AEDE0024BBFD /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5C41F82AEDE0024BBFD /* GCD.swift */; };
 		BBFBC5D61F82AEDE0024BBFD /* JSONTypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5C51F82AEDE0024BBFD /* JSONTypeAlias.swift */; };
 		BBFBC5D71F82AEDE0024BBFD /* Label+LineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5C61F82AEDE0024BBFD /* Label+LineSpacing.swift */; };
@@ -24,21 +24,12 @@
 		BBFBC5E31F82AEDE0024BBFD /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5D21F82AEDE0024BBFD /* UIView+Nib.swift */; };
 		BBFBC5E41F82AEDE0024BBFD /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5D31F82AEDE0024BBFD /* UIViewController+Alert.swift */; };
 		BBFBC5E51F82AEDE0024BBFD /* UIViewController+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5D41F82AEDE0024BBFD /* UIViewController+Nib.swift */; };
-		BBFBC5ED1F82B19F0024BBFD /* BlockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5E61F82B19F0024BBFD /* BlockButton.swift */; };
-		BBFBC5EE1F82B19F0024BBFD /* BlockLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5E71F82B19F0024BBFD /* BlockLongPress.swift */; };
-		BBFBC5EF1F82B19F0024BBFD /* BlockPan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5E81F82B19F0024BBFD /* BlockPan.swift */; };
-		BBFBC5F01F82B19F0024BBFD /* BlockPinch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5E91F82B19F0024BBFD /* BlockPinch.swift */; };
-		BBFBC5F11F82B19F0024BBFD /* BlockSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5EA1F82B19F0024BBFD /* BlockSwipe.swift */; };
-		BBFBC5F21F82B19F0024BBFD /* BlockTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5EB1F82B19F0024BBFD /* BlockTap.swift */; };
-		BBFBC5F31F82B19F0024BBFD /* BlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5EC1F82B19F0024BBFD /* BlockWebView.swift */; };
 		BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52131F7CC42000089258 /* ArrayExtensions.swift */; };
 		BBFF52161F7CCC5D00089258 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */; };
 		BBFF52181F7CCE4D00089258 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52171F7CCE4D00089258 /* StringExtensions.swift */; };
-		BBFF521A1F7CCEA000089258 /* UISearchBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52191F7CCEA000089258 /* UISearchBarExtensions.swift */; };
 		BBFF521C1F7CCEBC00089258 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF521B1F7CCEBC00089258 /* DateExtensions.swift */; };
 		BBFF521E1F7CCF4600089258 /* NSAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */; };
 		BBFF52201F7CD05300089258 /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */; };
-		BBFF52221F7E0F3F00089258 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52211F7E0F3F00089258 /* Toast.swift */; };
 		BBFF52241F7E13A100089258 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52231F7E13A100089258 /* UIViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,7 +61,7 @@
 		BB400D261F7A1C3D00B835B8 /* SugarFunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarFunctionsTests.swift; sourceTree = "<group>"; };
 		BB400D281F7A1C3D00B835B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB400D321F7A1C5400B835B8 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
-		BBFBC5C11F82AE8D0024BBFD /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = Core/CGFloatExtensions.swift; sourceTree = "<group>"; };
+		BB553ECC1FAC33A000DD01EE /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
 		BBFBC5C41F82AEDE0024BBFD /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
 		BBFBC5C51F82AEDE0024BBFD /* JSONTypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTypeAlias.swift; sourceTree = "<group>"; };
 		BBFBC5C61F82AEDE0024BBFD /* Label+LineSpacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Label+LineSpacing.swift"; sourceTree = "<group>"; };
@@ -83,21 +74,12 @@
 		BBFBC5D21F82AEDE0024BBFD /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
 		BBFBC5D31F82AEDE0024BBFD /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		BBFBC5D41F82AEDE0024BBFD /* UIViewController+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Nib.swift"; sourceTree = "<group>"; };
-		BBFBC5E61F82B19F0024BBFD /* BlockButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockButton.swift; sourceTree = "<group>"; };
-		BBFBC5E71F82B19F0024BBFD /* BlockLongPress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockLongPress.swift; sourceTree = "<group>"; };
-		BBFBC5E81F82B19F0024BBFD /* BlockPan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockPan.swift; sourceTree = "<group>"; };
-		BBFBC5E91F82B19F0024BBFD /* BlockPinch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockPinch.swift; sourceTree = "<group>"; };
-		BBFBC5EA1F82B19F0024BBFD /* BlockSwipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockSwipe.swift; sourceTree = "<group>"; };
-		BBFBC5EB1F82B19F0024BBFD /* BlockTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockTap.swift; sourceTree = "<group>"; };
-		BBFBC5EC1F82B19F0024BBFD /* BlockWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockWebView.swift; sourceTree = "<group>"; };
 		BBFF52131F7CC42000089258 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		BBFF52171F7CCE4D00089258 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		BBFF52191F7CCEA000089258 /* UISearchBarExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISearchBarExtensions.swift; sourceTree = "<group>"; };
 		BBFF521B1F7CCEBC00089258 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
 		BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtensions.swift; sourceTree = "<group>"; };
-		BBFF52211F7E0F3F00089258 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		BBFF52231F7E13A100089258 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,22 +158,12 @@
 			isa = PBXGroup;
 			children = (
 				BBFBC5C01F82AE150024BBFD /* Core */,
-				BBFBC5C11F82AE8D0024BBFD /* CGFloatExtensions.swift */,
 				BBFF52231F7E13A100089258 /* UIViewExtensions.swift */,
-				BBFBC5E61F82B19F0024BBFD /* BlockButton.swift */,
-				BBFBC5E71F82B19F0024BBFD /* BlockLongPress.swift */,
-				BBFBC5E81F82B19F0024BBFD /* BlockPan.swift */,
-				BBFBC5E91F82B19F0024BBFD /* BlockPinch.swift */,
-				BBFBC5EA1F82B19F0024BBFD /* BlockSwipe.swift */,
-				BBFBC5EB1F82B19F0024BBFD /* BlockTap.swift */,
-				BBFBC5EC1F82B19F0024BBFD /* BlockWebView.swift */,
-				BBFF52211F7E0F3F00089258 /* Toast.swift */,
 				BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */,
 				BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */,
 				BBFF521B1F7CCEBC00089258 /* DateExtensions.swift */,
 				BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */,
 				BBFF52131F7CC42000089258 /* ArrayExtensions.swift */,
-				BBFF52191F7CCEA000089258 /* UISearchBarExtensions.swift */,
 				BB400D321F7A1C5400B835B8 /* UIDeviceExtensions.swift */,
 				BBFF52171F7CCE4D00089258 /* StringExtensions.swift */,
 				BB400D1B1F7A1C3D00B835B8 /* SugarFunctions.h */,
@@ -212,6 +184,7 @@
 		BBFBC5C01F82AE150024BBFD /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				BB553ECC1FAC33A000DD01EE /* CGFloatExtensions.swift */,
 				BBFBC5C31F82AEDE0024BBFD /* Extensions */,
 			);
 			path = Core;
@@ -349,9 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBFBC5DA1F82AEDE0024BBFD /* Reusable.swift in Sources */,
-				BBFBC5F31F82B19F0024BBFD /* BlockWebView.swift in Sources */,
 				BBFF52181F7CCE4D00089258 /* StringExtensions.swift in Sources */,
-				BBFBC5EE1F82B19F0024BBFD /* BlockLongPress.swift in Sources */,
 				BB400D331F7A1C5400B835B8 /* UIDeviceExtensions.swift in Sources */,
 				BBFBC5E01F82AEDE0024BBFD /* UINib.swift in Sources */,
 				BBFBC5E11F82AEDE0024BBFD /* UITableView+Reusable.swift in Sources */,
@@ -362,6 +333,7 @@
 				BBFBC5E51F82AEDE0024BBFD /* UIViewController+Nib.swift in Sources */,
 				BBFF52161F7CCC5D00089258 /* AppStoryboard.swift in Sources */,
 				BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */,
+				BB553ECD1FAC33A000DD01EE /* CGFloatExtensions.swift in Sources */,
 				BBFBC5D51F82AEDE0024BBFD /* GCD.swift in Sources */,
 				BBFBC5D91F82AEDE0024BBFD /* ORDesinables.swift in Sources */,
 				BBFBC5D81F82AEDE0024BBFD /* Notification+Extension.swift in Sources */,
@@ -369,15 +341,7 @@
 				BBFBC5E31F82AEDE0024BBFD /* UIView+Nib.swift in Sources */,
 				BBFBC5D71F82AEDE0024BBFD /* Label+LineSpacing.swift in Sources */,
 				BBFF52241F7E13A100089258 /* UIViewExtensions.swift in Sources */,
-				BBFF521A1F7CCEA000089258 /* UISearchBarExtensions.swift in Sources */,
-				BBFF52221F7E0F3F00089258 /* Toast.swift in Sources */,
-				BBFBC5EF1F82B19F0024BBFD /* BlockPan.swift in Sources */,
-				BBFBC5C21F82AE8D0024BBFD /* CGFloatExtensions.swift in Sources */,
 				BBFF521C1F7CCEBC00089258 /* DateExtensions.swift in Sources */,
-				BBFBC5F21F82B19F0024BBFD /* BlockTap.swift in Sources */,
-				BBFBC5F01F82B19F0024BBFD /* BlockPinch.swift in Sources */,
-				BBFBC5F11F82B19F0024BBFD /* BlockSwipe.swift in Sources */,
-				BBFBC5ED1F82B19F0024BBFD /* BlockButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
