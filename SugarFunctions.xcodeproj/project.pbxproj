@@ -31,12 +31,6 @@
 		BBFBC5F11F82B19F0024BBFD /* BlockSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5EA1F82B19F0024BBFD /* BlockSwipe.swift */; };
 		BBFBC5F21F82B19F0024BBFD /* BlockTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5EB1F82B19F0024BBFD /* BlockTap.swift */; };
 		BBFBC5F31F82B19F0024BBFD /* BlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5EC1F82B19F0024BBFD /* BlockWebView.swift */; };
-		BBFBC5FB1F82B96A0024BBFD /* PhotoTweaksViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFBC5F51F82B96A0024BBFD /* PhotoTweaksViewController.h */; };
-		BBFBC5FC1F82B96A0024BBFD /* PhotoTweaksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5F61F82B96A0024BBFD /* PhotoTweaksViewController.m */; };
-		BBFBC5FD1F82B96A0024BBFD /* PhotoTweakView.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFBC5F71F82B96A0024BBFD /* PhotoTweakView.h */; };
-		BBFBC5FE1F82B96A0024BBFD /* PhotoTweakView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5F81F82B96A0024BBFD /* PhotoTweakView.m */; };
-		BBFBC5FF1F82B96A0024BBFD /* UIColor+Tweak.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFBC5F91F82B96A0024BBFD /* UIColor+Tweak.h */; };
-		BBFBC6001F82B96A0024BBFD /* UIColor+Tweak.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5FA1F82B96A0024BBFD /* UIColor+Tweak.m */; };
 		BBFBC6031F82BB2E0024BBFD /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC6011F82BB2E0024BBFD /* ImageHelper.swift */; };
 		BBFBC6041F82BB2E0024BBFD /* ImageVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC6021F82BB2E0024BBFD /* ImageVIewExtension.swift */; };
 		BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52131F7CC42000089258 /* ArrayExtensions.swift */; };
@@ -98,12 +92,6 @@
 		BBFBC5EA1F82B19F0024BBFD /* BlockSwipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockSwipe.swift; sourceTree = "<group>"; };
 		BBFBC5EB1F82B19F0024BBFD /* BlockTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockTap.swift; sourceTree = "<group>"; };
 		BBFBC5EC1F82B19F0024BBFD /* BlockWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockWebView.swift; sourceTree = "<group>"; };
-		BBFBC5F51F82B96A0024BBFD /* PhotoTweaksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTweaksViewController.h; sourceTree = "<group>"; };
-		BBFBC5F61F82B96A0024BBFD /* PhotoTweaksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTweaksViewController.m; sourceTree = "<group>"; };
-		BBFBC5F71F82B96A0024BBFD /* PhotoTweakView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTweakView.h; sourceTree = "<group>"; };
-		BBFBC5F81F82B96A0024BBFD /* PhotoTweakView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTweakView.m; sourceTree = "<group>"; };
-		BBFBC5F91F82B96A0024BBFD /* UIColor+Tweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tweak.h"; sourceTree = "<group>"; };
-		BBFBC5FA1F82B96A0024BBFD /* UIColor+Tweak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tweak.m"; sourceTree = "<group>"; };
 		BBFBC6011F82BB2E0024BBFD /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		BBFBC6021F82BB2E0024BBFD /* ImageVIewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageVIewExtension.swift; sourceTree = "<group>"; };
 		BBFF52131F7CC42000089258 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
@@ -193,7 +181,6 @@
 			children = (
 				BBFBC6011F82BB2E0024BBFD /* ImageHelper.swift */,
 				BBFBC6021F82BB2E0024BBFD /* ImageVIewExtension.swift */,
-				BBFBC5F41F82B96A0024BBFD /* PhotoTweaks */,
 				BBFBC5C01F82AE150024BBFD /* Core */,
 				BBFBC5C11F82AE8D0024BBFD /* CGFloatExtensions.swift */,
 				BBFF52231F7E13A100089258 /* UIViewExtensions.swift */,
@@ -255,19 +242,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		BBFBC5F41F82B96A0024BBFD /* PhotoTweaks */ = {
-			isa = PBXGroup;
-			children = (
-				BBFBC5F51F82B96A0024BBFD /* PhotoTweaksViewController.h */,
-				BBFBC5F61F82B96A0024BBFD /* PhotoTweaksViewController.m */,
-				BBFBC5F71F82B96A0024BBFD /* PhotoTweakView.h */,
-				BBFBC5F81F82B96A0024BBFD /* PhotoTweakView.m */,
-				BBFBC5F91F82B96A0024BBFD /* UIColor+Tweak.h */,
-				BBFBC5FA1F82B96A0024BBFD /* UIColor+Tweak.m */,
-			);
-			path = PhotoTweaks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -275,10 +249,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBFBC5FD1F82B96A0024BBFD /* PhotoTweakView.h in Headers */,
-				BBFBC5FF1F82B96A0024BBFD /* UIColor+Tweak.h in Headers */,
 				BB400D291F7A1C3D00B835B8 /* SugarFunctions.h in Headers */,
-				BBFBC5FB1F82B96A0024BBFD /* PhotoTweaksViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +356,6 @@
 			files = (
 				BBFBC5DA1F82AEDE0024BBFD /* Reusable.swift in Sources */,
 				BBFBC5F31F82B19F0024BBFD /* BlockWebView.swift in Sources */,
-				BBFBC6001F82B96A0024BBFD /* UIColor+Tweak.m in Sources */,
 				BBFF52181F7CCE4D00089258 /* StringExtensions.swift in Sources */,
 				BBFBC5EE1F82B19F0024BBFD /* BlockLongPress.swift in Sources */,
 				BB400D331F7A1C5400B835B8 /* UIDeviceExtensions.swift in Sources */,
@@ -396,7 +366,6 @@
 				BBFBC5DF1F82AEDE0024BBFD /* UIColor+Hex.swift in Sources */,
 				BBFF521E1F7CCF4600089258 /* NSAttributedStringExtensions.swift in Sources */,
 				BBFBC5E51F82AEDE0024BBFD /* UIViewController+Nib.swift in Sources */,
-				BBFBC5FE1F82B96A0024BBFD /* PhotoTweakView.m in Sources */,
 				BBFF52161F7CCC5D00089258 /* AppStoryboard.swift in Sources */,
 				BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */,
 				BBFBC5D51F82AEDE0024BBFD /* GCD.swift in Sources */,
@@ -407,7 +376,6 @@
 				BBFBC5E31F82AEDE0024BBFD /* UIView+Nib.swift in Sources */,
 				BBFBC5D71F82AEDE0024BBFD /* Label+LineSpacing.swift in Sources */,
 				BBFF52241F7E13A100089258 /* UIViewExtensions.swift in Sources */,
-				BBFBC5FC1F82B96A0024BBFD /* PhotoTweaksViewController.m in Sources */,
 				BBFF521A1F7CCEA000089258 /* UISearchBarExtensions.swift in Sources */,
 				BBFF52221F7E0F3F00089258 /* Toast.swift in Sources */,
 				BBFBC5EF1F82B19F0024BBFD /* BlockPan.swift in Sources */,
