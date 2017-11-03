@@ -31,7 +31,6 @@
 		BBFBC5F11F82B19F0024BBFD /* BlockSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5EA1F82B19F0024BBFD /* BlockSwipe.swift */; };
 		BBFBC5F21F82B19F0024BBFD /* BlockTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5EB1F82B19F0024BBFD /* BlockTap.swift */; };
 		BBFBC5F31F82B19F0024BBFD /* BlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5EC1F82B19F0024BBFD /* BlockWebView.swift */; };
-		BBFBC6031F82BB2E0024BBFD /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC6011F82BB2E0024BBFD /* ImageHelper.swift */; };
 		BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52131F7CC42000089258 /* ArrayExtensions.swift */; };
 		BBFF52161F7CCC5D00089258 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */; };
 		BBFF52181F7CCE4D00089258 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52171F7CCE4D00089258 /* StringExtensions.swift */; };
@@ -91,7 +90,6 @@
 		BBFBC5EA1F82B19F0024BBFD /* BlockSwipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockSwipe.swift; sourceTree = "<group>"; };
 		BBFBC5EB1F82B19F0024BBFD /* BlockTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockTap.swift; sourceTree = "<group>"; };
 		BBFBC5EC1F82B19F0024BBFD /* BlockWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockWebView.swift; sourceTree = "<group>"; };
-		BBFBC6011F82BB2E0024BBFD /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		BBFF52131F7CC42000089258 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		BBFF52171F7CCE4D00089258 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
@@ -177,7 +175,6 @@
 		BB400D1A1F7A1C3D00B835B8 /* SugarFunctions */ = {
 			isa = PBXGroup;
 			children = (
-				BBFBC6011F82BB2E0024BBFD /* ImageHelper.swift */,
 				BBFBC5C01F82AE150024BBFD /* Core */,
 				BBFBC5C11F82AE8D0024BBFD /* CGFloatExtensions.swift */,
 				BBFF52231F7E13A100089258 /* UIViewExtensions.swift */,
@@ -381,7 +378,6 @@
 				BBFBC5F01F82B19F0024BBFD /* BlockPinch.swift in Sources */,
 				BBFBC5F11F82B19F0024BBFD /* BlockSwipe.swift in Sources */,
 				BBFBC5ED1F82B19F0024BBFD /* BlockButton.swift in Sources */,
-				BBFBC6031F82BB2E0024BBFD /* ImageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
