@@ -30,7 +30,6 @@
 		BBFF521C1F7CCEBC00089258 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF521B1F7CCEBC00089258 /* DateExtensions.swift */; };
 		BBFF521E1F7CCF4600089258 /* NSAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */; };
 		BBFF52201F7CD05300089258 /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */; };
-		BBFF52241F7E13A100089258 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52231F7E13A100089258 /* UIViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +79,6 @@
 		BBFF521B1F7CCEBC00089258 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
 		BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtensions.swift; sourceTree = "<group>"; };
-		BBFF52231F7E13A100089258 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				BBFBC5C01F82AE150024BBFD /* Core */,
-				BBFF52231F7E13A100089258 /* UIViewExtensions.swift */,
 				BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */,
 				BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */,
 				BBFF521B1F7CCEBC00089258 /* DateExtensions.swift */,
@@ -340,7 +337,6 @@
 				BBFBC5E41F82AEDE0024BBFD /* UIViewController+Alert.swift in Sources */,
 				BBFBC5E31F82AEDE0024BBFD /* UIView+Nib.swift in Sources */,
 				BBFBC5D71F82AEDE0024BBFD /* Label+LineSpacing.swift in Sources */,
-				BBFF52241F7E13A100089258 /* UIViewExtensions.swift in Sources */,
 				BBFF521C1F7CCEBC00089258 /* DateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
