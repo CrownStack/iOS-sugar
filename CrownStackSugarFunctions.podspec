@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CrownStackSugarFunctions'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'This is the first crownstack sugar functions pod library.'
 
   s.description      = <<-DESC
