@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0252521FBB427600778EB3 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02524C1FBB427600778EB3 /* UIColor+Hex.swift */; };
+		BB0252531FBB427600778EB3 /* UINib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02524D1FBB427600778EB3 /* UINib.swift */; };
+		BB0252541FBB427600778EB3 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02524E1FBB427600778EB3 /* UITableView+Reusable.swift */; };
+		BB0252551FBB427600778EB3 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02524F1FBB427600778EB3 /* UIView+Nib.swift */; };
+		BB0252561FBB427600778EB3 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0252501FBB427600778EB3 /* UIViewController+Alert.swift */; };
+		BB0252571FBB427600778EB3 /* UIViewController+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0252511FBB427600778EB3 /* UIViewController+Nib.swift */; };
+		BB02525E1FBB428300778EB3 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0252581FBB428300778EB3 /* GCD.swift */; };
+		BB02525F1FBB428300778EB3 /* JSONTypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0252591FBB428300778EB3 /* JSONTypeAlias.swift */; };
+		BB0252601FBB428300778EB3 /* Label+LineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02525A1FBB428300778EB3 /* Label+LineSpacing.swift */; };
+		BB0252611FBB428300778EB3 /* Notification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02525B1FBB428300778EB3 /* Notification+Extension.swift */; };
+		BB0252621FBB428300778EB3 /* ORDesinables.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02525C1FBB428300778EB3 /* ORDesinables.swift */; };
+		BB0252631FBB428300778EB3 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02525D1FBB428300778EB3 /* Reusable.swift */; };
+		BB0252651FBB428E00778EB3 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0252641FBB428E00778EB3 /* CGFloatExtensions.swift */; };
 		BB400D221F7A1C3D00B835B8 /* SugarFunctions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB400D181F7A1C3D00B835B8 /* SugarFunctions.framework */; };
 		BB400D271F7A1C3D00B835B8 /* SugarFunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB400D261F7A1C3D00B835B8 /* SugarFunctionsTests.swift */; };
 		BB400D291F7A1C3D00B835B8 /* SugarFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB400D1B1F7A1C3D00B835B8 /* SugarFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB400D331F7A1C5400B835B8 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB400D321F7A1C5400B835B8 /* UIDeviceExtensions.swift */; };
-		BB553ECD1FAC33A000DD01EE /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB553ECC1FAC33A000DD01EE /* CGFloatExtensions.swift */; };
-		BBFBC5D51F82AEDE0024BBFD /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5C41F82AEDE0024BBFD /* GCD.swift */; };
-		BBFBC5D61F82AEDE0024BBFD /* JSONTypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5C51F82AEDE0024BBFD /* JSONTypeAlias.swift */; };
-		BBFBC5D71F82AEDE0024BBFD /* Label+LineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5C61F82AEDE0024BBFD /* Label+LineSpacing.swift */; };
-		BBFBC5D81F82AEDE0024BBFD /* Notification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5C71F82AEDE0024BBFD /* Notification+Extension.swift */; };
-		BBFBC5D91F82AEDE0024BBFD /* ORDesinables.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5C81F82AEDE0024BBFD /* ORDesinables.swift */; };
-		BBFBC5DA1F82AEDE0024BBFD /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5C91F82AEDE0024BBFD /* Reusable.swift */; };
-		BBFBC5DF1F82AEDE0024BBFD /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5CE1F82AEDE0024BBFD /* UIColor+Hex.swift */; };
-		BBFBC5E01F82AEDE0024BBFD /* UINib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5CF1F82AEDE0024BBFD /* UINib.swift */; };
-		BBFBC5E11F82AEDE0024BBFD /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5D01F82AEDE0024BBFD /* UITableView+Reusable.swift */; };
-		BBFBC5E31F82AEDE0024BBFD /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5D21F82AEDE0024BBFD /* UIView+Nib.swift */; };
-		BBFBC5E41F82AEDE0024BBFD /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5D31F82AEDE0024BBFD /* UIViewController+Alert.swift */; };
-		BBFBC5E51F82AEDE0024BBFD /* UIViewController+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC5D41F82AEDE0024BBFD /* UIViewController+Nib.swift */; };
 		BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52131F7CC42000089258 /* ArrayExtensions.swift */; };
 		BBFF52161F7CCC5D00089258 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */; };
 		BBFF52181F7CCE4D00089258 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF52171F7CCE4D00089258 /* StringExtensions.swift */; };
@@ -43,6 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB02524C1FBB427600778EB3 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		BB02524D1FBB427600778EB3 /* UINib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINib.swift; sourceTree = "<group>"; };
+		BB02524E1FBB427600778EB3 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		BB02524F1FBB427600778EB3 /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		BB0252501FBB427600778EB3 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		BB0252511FBB427600778EB3 /* UIViewController+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Nib.swift"; sourceTree = "<group>"; };
+		BB0252581FBB428300778EB3 /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		BB0252591FBB428300778EB3 /* JSONTypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTypeAlias.swift; sourceTree = "<group>"; };
+		BB02525A1FBB428300778EB3 /* Label+LineSpacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Label+LineSpacing.swift"; sourceTree = "<group>"; };
+		BB02525B1FBB428300778EB3 /* Notification+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+Extension.swift"; sourceTree = "<group>"; };
+		BB02525C1FBB428300778EB3 /* ORDesinables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORDesinables.swift; sourceTree = "<group>"; };
+		BB02525D1FBB428300778EB3 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		BB0252641FBB428E00778EB3 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
 		BB1D30991F8601B5009EE6E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB1D309B1F8601B5009EE6E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB1D309E1F8601B5009EE6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,19 +73,6 @@
 		BB400D261F7A1C3D00B835B8 /* SugarFunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarFunctionsTests.swift; sourceTree = "<group>"; };
 		BB400D281F7A1C3D00B835B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB400D321F7A1C5400B835B8 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
-		BB553ECC1FAC33A000DD01EE /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = Core/CGFloatExtensions.swift; sourceTree = "<group>"; };
-		BBFBC5C41F82AEDE0024BBFD /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GCD.swift; path = Core/Extensions/GCD.swift; sourceTree = "<group>"; };
-		BBFBC5C51F82AEDE0024BBFD /* JSONTypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONTypeAlias.swift; path = Core/Extensions/JSONTypeAlias.swift; sourceTree = "<group>"; };
-		BBFBC5C61F82AEDE0024BBFD /* Label+LineSpacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Label+LineSpacing.swift"; path = "Core/Extensions/Label+LineSpacing.swift"; sourceTree = "<group>"; };
-		BBFBC5C71F82AEDE0024BBFD /* Notification+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notification+Extension.swift"; path = "Core/Extensions/Notification+Extension.swift"; sourceTree = "<group>"; };
-		BBFBC5C81F82AEDE0024BBFD /* ORDesinables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ORDesinables.swift; path = Core/Extensions/ORDesinables.swift; sourceTree = "<group>"; };
-		BBFBC5C91F82AEDE0024BBFD /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = Core/Extensions/Reusable.swift; sourceTree = "<group>"; };
-		BBFBC5CE1F82AEDE0024BBFD /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "Core/Extensions/UIColor+Hex.swift"; sourceTree = "<group>"; };
-		BBFBC5CF1F82AEDE0024BBFD /* UINib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UINib.swift; path = Core/Extensions/UINib.swift; sourceTree = "<group>"; };
-		BBFBC5D01F82AEDE0024BBFD /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableView+Reusable.swift"; path = "Core/Extensions/UITableView+Reusable.swift"; sourceTree = "<group>"; };
-		BBFBC5D21F82AEDE0024BBFD /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Nib.swift"; path = "Core/Extensions/UIView+Nib.swift"; sourceTree = "<group>"; };
-		BBFBC5D31F82AEDE0024BBFD /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Alert.swift"; path = "Core/Extensions/UIViewController+Alert.swift"; sourceTree = "<group>"; };
-		BBFBC5D41F82AEDE0024BBFD /* UIViewController+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Nib.swift"; path = "Core/Extensions/UIViewController+Nib.swift"; sourceTree = "<group>"; };
 		BBFF52131F7CC42000089258 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		BBFF52151F7CCC5D00089258 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		BBFF52171F7CCE4D00089258 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
@@ -155,19 +155,19 @@
 		BB400D1A1F7A1C3D00B835B8 /* SugarFunctions */ = {
 			isa = PBXGroup;
 			children = (
-				BB553ECC1FAC33A000DD01EE /* CGFloatExtensions.swift */,
-				BBFBC5C41F82AEDE0024BBFD /* GCD.swift */,
-				BBFBC5C51F82AEDE0024BBFD /* JSONTypeAlias.swift */,
-				BBFBC5C61F82AEDE0024BBFD /* Label+LineSpacing.swift */,
-				BBFBC5C71F82AEDE0024BBFD /* Notification+Extension.swift */,
-				BBFBC5C81F82AEDE0024BBFD /* ORDesinables.swift */,
-				BBFBC5C91F82AEDE0024BBFD /* Reusable.swift */,
-				BBFBC5CE1F82AEDE0024BBFD /* UIColor+Hex.swift */,
-				BBFBC5CF1F82AEDE0024BBFD /* UINib.swift */,
-				BBFBC5D01F82AEDE0024BBFD /* UITableView+Reusable.swift */,
-				BBFBC5D21F82AEDE0024BBFD /* UIView+Nib.swift */,
-				BBFBC5D31F82AEDE0024BBFD /* UIViewController+Alert.swift */,
-				BBFBC5D41F82AEDE0024BBFD /* UIViewController+Nib.swift */,
+				BB0252641FBB428E00778EB3 /* CGFloatExtensions.swift */,
+				BB0252581FBB428300778EB3 /* GCD.swift */,
+				BB0252591FBB428300778EB3 /* JSONTypeAlias.swift */,
+				BB02525A1FBB428300778EB3 /* Label+LineSpacing.swift */,
+				BB02525B1FBB428300778EB3 /* Notification+Extension.swift */,
+				BB02525C1FBB428300778EB3 /* ORDesinables.swift */,
+				BB02525D1FBB428300778EB3 /* Reusable.swift */,
+				BB02524C1FBB427600778EB3 /* UIColor+Hex.swift */,
+				BB02524D1FBB427600778EB3 /* UINib.swift */,
+				BB02524E1FBB427600778EB3 /* UITableView+Reusable.swift */,
+				BB02524F1FBB427600778EB3 /* UIView+Nib.swift */,
+				BB0252501FBB427600778EB3 /* UIViewController+Alert.swift */,
+				BB0252511FBB427600778EB3 /* UIViewController+Nib.swift */,
 				BBFF521F1F7CD05300089258 /* UIAlertControllerExtensions.swift */,
 				BBFF521D1F7CCF4600089258 /* NSAttributedStringExtensions.swift */,
 				BBFF521B1F7CCEBC00089258 /* DateExtensions.swift */,
@@ -302,25 +302,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBFBC5DA1F82AEDE0024BBFD /* Reusable.swift in Sources */,
+				BB0252571FBB427600778EB3 /* UIViewController+Nib.swift in Sources */,
+				BB0252521FBB427600778EB3 /* UIColor+Hex.swift in Sources */,
 				BBFF52181F7CCE4D00089258 /* StringExtensions.swift in Sources */,
 				BB400D331F7A1C5400B835B8 /* UIDeviceExtensions.swift in Sources */,
-				BBFBC5E01F82AEDE0024BBFD /* UINib.swift in Sources */,
-				BBFBC5E11F82AEDE0024BBFD /* UITableView+Reusable.swift in Sources */,
-				BBFBC5D61F82AEDE0024BBFD /* JSONTypeAlias.swift in Sources */,
+				BB0252561FBB427600778EB3 /* UIViewController+Alert.swift in Sources */,
+				BB0252611FBB428300778EB3 /* Notification+Extension.swift in Sources */,
 				BBFF52201F7CD05300089258 /* UIAlertControllerExtensions.swift in Sources */,
-				BBFBC5DF1F82AEDE0024BBFD /* UIColor+Hex.swift in Sources */,
+				BB0252551FBB427600778EB3 /* UIView+Nib.swift in Sources */,
+				BB0252601FBB428300778EB3 /* Label+LineSpacing.swift in Sources */,
+				BB0252531FBB427600778EB3 /* UINib.swift in Sources */,
 				BBFF521E1F7CCF4600089258 /* NSAttributedStringExtensions.swift in Sources */,
-				BBFBC5E51F82AEDE0024BBFD /* UIViewController+Nib.swift in Sources */,
 				BBFF52161F7CCC5D00089258 /* AppStoryboard.swift in Sources */,
+				BB02525F1FBB428300778EB3 /* JSONTypeAlias.swift in Sources */,
 				BBFF52141F7CC42000089258 /* ArrayExtensions.swift in Sources */,
-				BB553ECD1FAC33A000DD01EE /* CGFloatExtensions.swift in Sources */,
-				BBFBC5D51F82AEDE0024BBFD /* GCD.swift in Sources */,
-				BBFBC5D91F82AEDE0024BBFD /* ORDesinables.swift in Sources */,
-				BBFBC5D81F82AEDE0024BBFD /* Notification+Extension.swift in Sources */,
-				BBFBC5E41F82AEDE0024BBFD /* UIViewController+Alert.swift in Sources */,
-				BBFBC5E31F82AEDE0024BBFD /* UIView+Nib.swift in Sources */,
-				BBFBC5D71F82AEDE0024BBFD /* Label+LineSpacing.swift in Sources */,
+				BB0252651FBB428E00778EB3 /* CGFloatExtensions.swift in Sources */,
+				BB0252621FBB428300778EB3 /* ORDesinables.swift in Sources */,
+				BB0252541FBB427600778EB3 /* UITableView+Reusable.swift in Sources */,
+				BB0252631FBB428300778EB3 /* Reusable.swift in Sources */,
+				BB02525E1FBB428300778EB3 /* GCD.swift in Sources */,
 				BBFF521C1F7CCEBC00089258 /* DateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
